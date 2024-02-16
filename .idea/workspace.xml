@@ -7,33 +7,7 @@
     <list default="true" id="21d721e7-5236-425b-b5f6-41f98cb7f9f3" name="Changes" comment="chore(update-gitignore): update files in gitignore">
       <change beforePath="$PROJECT_DIR$/.github/workflows/maven.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/maven.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-finance-commons/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-finance-commons/.factorypath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-finance-commons/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-finance-commons/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-finance-commons/.settings/org.eclipse.jdt.apt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-finance-commons/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-finance-commons/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-finance-commons/.settings/org.springframework.ide.eclipse.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-finance-commons/HELP.md" beforeDir="false" afterPath="$PROJECT_DIR$/personal-finance-commons/HELP.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-finance-commons/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-finance-commons/target/classes/com/arcane/pfa/commons/domain/UserDetails.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-finance-commons/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-finance-commons/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-finance-commons/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-finance-commons/target/personal-finance-commons-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-finance-core/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-finance-core/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-finance-core/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-finance-core/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-finance-core/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-finance-core/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-finance-core/src/main/java/com/arcane/pfa/core/PersonalFinanceCoreApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-finance-core/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-finance-core/src/test/java/com/arcane/pfa/core/PersonalFinanceCoreApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +50,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "gitbutler/integration",
+    "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "corretto-17",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/ajitg/github-workspace/personal-finance-application",
