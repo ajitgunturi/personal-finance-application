@@ -5,23 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21d721e7-5236-425b-b5f6-41f98cb7f9f3" name="Changes" comment="chore(update-gitignore): update files in gitignore">
-      <change afterPath="$PROJECT_DIR$/personal-finance-core/src/main/java/com/arcane/pfa/core/rest/UserDetailsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/personal-finance-core/src/main/java/com/arcane/pfa/core/service/UserDetailsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/personal-finance-core/src/main/java/com/arcane/pfa/core/service/UserDetailsServiceDbImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/maven.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/maven.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-finance-commons/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-finance-commons/HELP.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-finance-commons/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-finance-commons/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-finance-commons/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-finance-commons/src/main/java/com/arcane/pfa/commons/domain/AccountDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/personal-finance-core/src/main/java/com/arcane/pfa/core/domain/AccountDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-finance-commons/src/main/java/com/arcane/pfa/commons/domain/UserDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/personal-finance-core/src/main/java/com/arcane/pfa/core/domain/UserDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-finance-commons/src/main/java/com/arcane/pfa/commons/repository/AccountDetailsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/personal-finance-core/src/main/java/com/arcane/pfa/core/repository/AccountDetailsRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-finance-commons/src/main/java/com/arcane/pfa/commons/repository/UserDetailsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/personal-finance-core/src/main/java/com/arcane/pfa/core/repository/UserDetailsRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-finance-commons/src/main/resources/application.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +129,7 @@
       <option name="presentableId" value="Default" />
       <updated>1708112857982</updated>
       <workItem from="1708112859339" duration="2059000" />
-      <workItem from="1708352141469" duration="10044000" />
+      <workItem from="1708352141469" duration="10273000" />
     </task>
     <task id="LOCAL-00001" summary="chore(update-gitignore): update files in gitignore">
       <option name="closed" value="true" />

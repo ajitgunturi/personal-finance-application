@@ -27,8 +27,8 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
         cache: maven
-    - name: Build commons artifact
-      run: cd personal-finance-commons && mvn -B package --file pom.xml
+    - name: Build core artifact
+      run: cd personal-finance-core && mvn clean package -DskipTests=true --file pom.xml
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
     # - name: Update dependency graph
