@@ -5,9 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21d721e7-5236-425b-b5f6-41f98cb7f9f3" name="Changes" comment="chore(update-gitignore): update files in gitignore">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/maven.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/maven.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/personal-finance-core/src/main/java/com/arcane/pfa/core/rest/UserDetailsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/personal-finance-core/src/main/java/com/arcane/pfa/core/service/UserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/personal-finance-core/src/main/java/com/arcane/pfa/core/service/UserDetailsServiceDbImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal-finance-commons/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal-finance-commons/HELP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal-finance-commons/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal-finance-commons/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal-finance-commons/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal-finance-commons/src/main/java/com/arcane/pfa/commons/domain/AccountDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/personal-finance-core/src/main/java/com/arcane/pfa/core/domain/AccountDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal-finance-commons/src/main/java/com/arcane/pfa/commons/domain/UserDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/personal-finance-core/src/main/java/com/arcane/pfa/core/domain/UserDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal-finance-commons/src/main/java/com/arcane/pfa/commons/repository/AccountDetailsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/personal-finance-core/src/main/java/com/arcane/pfa/core/repository/AccountDetailsRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal-finance-commons/src/main/java/com/arcane/pfa/commons/repository/UserDetailsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/personal-finance-core/src/main/java/com/arcane/pfa/core/repository/UserDetailsRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal-finance-commons/src/main/resources/application.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +31,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -30,6 +44,17 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "contexts": [
+    {
+      "name": "kind-ucp"
+    }
+  ],
+  "isMigrated": true
+}]]></component>
+  <component name="KubernetesSettings">
+    <option name="contextName" value="kind-ucp" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -47,13 +72,18 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.PersonalFinanceCoreApplication.executor": "Run",
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "corretto-17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/ajitg/github-workspace/personal-finance-application",
+    "last_opened_file_path": "/Users/ajitg/github-workspace/personal-finance-application/personal-finance-core/src/main/java/com/arcane/pfa/core",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -62,13 +92,37 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "terminal",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/personal-finance-core/src/main/java/com/arcane/pfa/core" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.arcane.pfa.core.rest" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.PersonalFinanceCoreApplication">
     <configuration name="PersonalFinanceCommonsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="personal-finance-commons" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.arcane.pfa.commons.PersonalFinanceCommonsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonalFinanceCoreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="personal-finance-core" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.arcane.pfa.core.PersonalFinanceCoreApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -90,6 +144,7 @@
       <option name="presentableId" value="Default" />
       <updated>1708112857982</updated>
       <workItem from="1708112859339" duration="2059000" />
+      <workItem from="1708352141469" duration="10044000" />
     </task>
     <task id="LOCAL-00001" summary="chore(update-gitignore): update files in gitignore">
       <option name="closed" value="true" />
@@ -108,5 +163,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="chore(update-gitignore): update files in gitignore" />
     <option name="LAST_COMMIT_MESSAGE" value="chore(update-gitignore): update files in gitignore" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

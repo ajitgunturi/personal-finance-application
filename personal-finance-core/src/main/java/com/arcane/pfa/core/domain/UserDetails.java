@@ -1,4 +1,4 @@
-package com.arcane.pfa.commons.domain;
+package com.arcane.pfa.core.domain;
 
 import jakarta.persistence.*;
 import lombok.Data;
@@ -8,7 +8,9 @@ import java.util.List;
 
 @Data
 @Entity
-@Table(name="user_details")
+@Table(name = "user_details", uniqueConstraints = {
+        @UniqueConstraint(columnNames = {"email"})
+})
 public class UserDetails {
 
     @Id

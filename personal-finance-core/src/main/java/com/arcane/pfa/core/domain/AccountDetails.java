@@ -1,4 +1,4 @@
-package com.arcane.pfa.commons.domain;
+package com.arcane.pfa.core.domain;
 
 import jakarta.persistence.*;
 import lombok.Data;
