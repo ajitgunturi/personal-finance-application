@@ -2,6 +2,8 @@ package com.arcane.pfa.core.rest;
 
 import com.arcane.pfa.core.domain.UserDetails;
 import com.arcane.pfa.core.service.UserDetailsService;
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -26,6 +28,8 @@ public class UserDetailsController {
     }
 
     @GetMapping("/check-status")
+    @Operation(summary = "Use this to check if user is created or not")
+    @Tag(name="Check User Details", description = "User Details operations")
     public ResponseEntity<UserDetails> checkUserCreationStatus(@RequestParam String email){
         return ResponseEntity.ok(service.checkUserStatus(email));
     }
