@@ -1,7 +1,6 @@
 package com.arcane.pfa.core.service;
 
 import com.arcane.pfa.core.domain.UserDetails;
-import com.arcane.pfa.core.exception.AccountDetailsException;
 import com.arcane.pfa.core.exception.UserDetailsException;
 import com.arcane.pfa.core.repository.UserDetailsRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,6 +14,7 @@ public class UserDetailsServiceDbImpl implements UserDetailsService{
     private UserDetailsRepository repository;
     @Override
     public void createUser(UserDetails userDetails) {
+
         repository.save(userDetails);
     }
 
@@ -23,7 +23,7 @@ public class UserDetailsServiceDbImpl implements UserDetailsService{
         UserDetails fetchedUserDetails = repository.findUserDetailsByEmail(email);
 
         if (fetchedUserDetails==null){
-            throw new AccountDetailsException(String.format("UserDetails with email %s not found",email));
+            throw new UserDetailsException(String.format("UserDetails with email %s not found",email));
         }
         return fetchedUserDetails;
     }

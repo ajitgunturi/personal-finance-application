@@ -1,5 +1,6 @@
 package com.arcane.pfa.core.rest;
 
+import com.arcane.pfa.core.aspect.ValidateEmail;
 import com.arcane.pfa.core.domain.UserDetails;
 import com.arcane.pfa.core.service.UserDetailsService;
 import io.swagger.v3.oas.annotations.Operation;
@@ -30,6 +31,7 @@ public class UserDetailsController {
     @GetMapping("/check-status")
     @Operation(summary = "Use this to check if user is created or not")
     @Tag(name="Check User Details", description = "User Details operations")
+    @ValidateEmail
     public ResponseEntity<UserDetails> checkUserCreationStatus(@RequestParam String email){
         return ResponseEntity.ok(service.checkUserStatus(email));
     }
