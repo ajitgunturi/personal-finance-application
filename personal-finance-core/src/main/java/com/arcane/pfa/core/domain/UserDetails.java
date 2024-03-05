@@ -1,5 +1,6 @@
 package com.arcane.pfa.core.domain;
 
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
 import lombok.Data;
 
@@ -20,6 +21,7 @@ public class UserDetails {
     private String username;
     private String email;
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true)
+    @JsonManagedReference
     private List<AccountDetails> accounts = new ArrayList<>();
 
     public void addAccount(AccountDetails account) {

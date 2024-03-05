@@ -1,5 +1,6 @@
 package com.arcane.pfa.core.domain;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import jakarta.persistence.*;
 import lombok.Data;
 
@@ -16,5 +17,6 @@ public class AccountDetails {
     private double accountBalance;
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name="user_id")
+    @JsonBackReference
     private UserDetails user;
 }

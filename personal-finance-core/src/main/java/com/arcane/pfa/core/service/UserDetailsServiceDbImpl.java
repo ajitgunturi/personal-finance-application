@@ -19,6 +19,12 @@ public class UserDetailsServiceDbImpl implements UserDetailsService{
     }
 
     @Override
+    public UserDetails updateUser(UserDetails userDetails, String email) {
+        repository.save(userDetails);
+        return repository.findUserDetailsByEmail(email);
+    }
+
+    @Override
     public UserDetails checkUserStatus(String email) {
         UserDetails fetchedUserDetails = repository.findUserDetailsByEmail(email);
 

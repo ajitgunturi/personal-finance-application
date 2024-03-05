@@ -8,5 +8,7 @@ public interface UserDetailsService {
 
     void createUser(UserDetails userDetails);
     UserDetails checkUserStatus(String email);
+
+    UserDetails updateUser(UserDetails userDetails, String email);
     List<UserDetails> getAllUsers();
 }
